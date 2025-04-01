@@ -1,0 +1,32 @@
+.container{
+    border: 2px solid blue;
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+
+
+.images{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+.images .handgesture{
+    background-color: #ffd51b;
+    color: #000000;
+    border: none;
+    font-size: 50px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+}
