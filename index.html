@@ -13,22 +13,21 @@
 
 <body>
     <div class="container">
-        <p class="computer">Computer: <span id="computerScore">4</span></p>
-        <p class="you">You: <span id="yourScore">0</span></p>
-
+        <div class="score">
+            <p class="computer">You: <span id="computerScore"></span></p>
+            <p class="you">Computer: <span id="yourScore"></span></p>
+        </div>
         <div class="images">
-            <div class="handgesture"> <i class="fa-solid fa-hand-back-fist"></i></div>
-            <div class="handgesture"> <i class="fa-solid fa-hand"></i></div>
-            <div class="handgesture"> <i class="fa-solid fa-hand-scissors"></i></div>
+            <div class="handgesture" id="rockplay"> <i class="fa-solid fa-hand-back-fist"></i></div>
+            <div class="handgesture" id="paperplay"> <i class="fa-solid fa-hand"></i></div>
+            <div class="handgesture" id="scissorplay"> <i class="fa-solid fa-hand-scissors"></i></div>
         </div>
 
-        <div class="yourChoose">
-            <p class="choose">You choose </p>
+        <div class="choices">
+            <p id="yourChoose"> </p>
+            <p id="computerChoose"> </p>
         </div>
-        <div class="computerChoose">
-            <p class="comChoose">Computer choose </p>
-        </div>
-        <button id="result">you win</button>
+        <button id="resultscore"></button>
     </div>
 
 </body>
